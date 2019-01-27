@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class ByeController {
 
+    //asdfasdf
     @RequestMapping("bye")
     public String bye(Model model, HttpServletRequest request){
         model.addAttribute("man","刘德华");
